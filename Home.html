@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="login-container">
+    <h2>Booking</h2>
+    <form style="font-family: cursive;">
+    <div class="imgcontainer">
+    </div>
+    <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+    
+    <br><br><label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    
+    <button type="submit">Login</button><br><br>
+    <label>
+    <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+    <div class="footer">
+        <h4>&copy; 2024 Nature Vacation Planners</h4>
+    </div>
+    <form action="/action_page.php">
+        <p>Please select your type of vacation planning:</p>
+        <input type="radio" id="Single" name="vacation planning" value="Single">
+        <label for="Single">Single</label><br>
+        <input type="radio" id="Friends" name="vacation planning" value="Friends">
+        <label for="Friends">Friends</label><br>
+        <input type="radio" id="Honeymoon" name="vacation planning" value="Honeymoon">
+        <label for="Honeymoon">Honeymoon</label><br>
+        <input type="radio" id="Family" name="vacation planning" value="Family">
+        <label for="Family">Family</label><br>  
+      
+        <p>Please select your age:</p>
+        <input type="radio" id="age1" name="age" value="30">
+        <label for="age1">0 - 30</label><br>
+        <input type="radio" id="age2" name="age" value="60">
+        <label for="age2">31 - 60</label><br>  
+        <input type="radio" id="age3" name="age" value="100">
+        <label for="age3">61 - 100</label><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      <div class="footer" style="color: rgb(8, 8, 8);">
+        <h4>&copy; 2024 Nature Vacation Planners</h4>
+    </div>
+    </div>
+    </form>
+    </div>
+    </body>
+    </html>
